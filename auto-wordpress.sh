@@ -103,47 +103,29 @@ curl -LO https://raw.githubusercontent.com/thisiscapra/auto-wordpress/master/Gru
 
 # All-in-One-SEO-Pack
 echo "Fetching All-in-One-SEO-Pack plugin...";
-curl -O http://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip;
-unzip -q all-in-one-seo-pack.zip;
-mv all-in-one-seo-pack wordpress/wp-content/plugins/
+wp plugin install all-in-one-seo-pack --activate
 
 # Sitemap Generator
 echo "Fetching Google Sitemap Generator plugin...";
-curl -O http://downloads.wordpress.org/plugin/google-sitemap-generator.zip; 
-unzip -q  google-sitemap-generator.zip; 
-mv google-sitemap-generator wordpress/wp-content/plugins/
+wp plugin install google-sitemap-generator --activate
 
 # Secure WordPress
 echo "Fetching Secure WordPress plugin...";
-curl -O http://downloads.wordpress.org/plugin/secure-wordpress.zip;
-unzip -q  secure-wordpress.zip;
-mv secure-wordpress wordpress/wp-content/plugins/
+wp plugin install secure-wordpress --activate
 
 # Super-cache
 echo "Fetching Super Cache plugin...";
-curl -O http://downloads.wordpress.org/plugin/wp-super-cache.zip;
-unzip -q  wp-super-cache.zip;
-mv wp-super-cache wordpress/wp-content/plugins/
+wp plugin install wp-super-cache --activate
 
 # Regenerate Thumbnails (good for when you need to make custom sizes)
 echo "Fetching Regenerate Thumbnails...";
-curl -O http://downloads.wordpress.org/plugin/regenerate-thumbnails.zip
-unzip -q regenerate-thumbnails.zip
-mv regenerate-thumbnails wordpress/wp-content/plugins/
+wp plugin install regenerate-thumbnails --activate
 
 # Advanced Custom Fields
 echo "Fetching Advanced Custom Fields...";
-curl -O http://downloads.wordpress.org/plugin/advanced-custom-fields.zip
-unzip -q advanced-custom-fields.zip
-mv advanced-custom-fields wordpress/wp-content/plugins/
+wp plugin install advanced-custom-fields --activate
+wp plugin install advanced-custom-fields-pro --activate
 
 # WordPress Importer
 echo "Fetching WordPress Importer...";
-curl -O http://downloads.wordpress.org/plugin/wordpress-importer.zip
-unzip -q wordpress-importer.zip
-mv wordpress-importer wordpress/wp-content/plugins/
-
-# Cleanup
-echo "Cleaning up temporary files and directories...";
-rm *.zip
-rm *.tar.gz
+wp plugin install wordpress-importer --activate
