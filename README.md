@@ -27,3 +27,9 @@ First You will need to install the following dependencies...
 This will setup Wordpress, with a DB, Grunt, and a selection of plugins
 
 * `bash <(curl -s https://raw.githubusercontent.com/thisiscapra/auto-wordpress/master/auto-wordpress.sh)`
+
+## Generate assets
+
+To generate your assets using Grunt, cd to your theme folder and run...
+
+* `grunt`
