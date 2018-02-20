@@ -26,4 +26,4 @@ First You will need to install the following dependencies...
 
 This will setup Wordpress, with a DB, Grunt, and a selection of plugins
 
-* `curl https://raw.githubusercontent.com/thisiscapra/auto-wordpress/master/auto-wordpress.sh | bash`
+* `bash <(curl -s https://raw.githubusercontent.com/thisiscapra/auto-wordpress/master/auto-wordpress.sh)`
