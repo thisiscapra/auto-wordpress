@@ -124,7 +124,6 @@ wp plugin install regenerate-thumbnails --activate
 # Advanced Custom Fields
 echo "Fetching Advanced Custom Fields...";
 wp plugin install advanced-custom-fields --activate
-wp plugin install advanced-custom-fields-pro --activate
 
 # WordPress Importer
 echo "Fetching WordPress Importer...";
