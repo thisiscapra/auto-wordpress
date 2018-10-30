@@ -87,6 +87,7 @@ cd $project_name && \
 
 npm init && \
 npm install --save-dev grunt && \
+npm install --save-dev node-sass && \
 npm install --save-dev grunt-contrib-sass && \
 npm install --save-dev grunt-contrib-watch && \
 npm install --save-dev grunt-contrib-uglify && \
