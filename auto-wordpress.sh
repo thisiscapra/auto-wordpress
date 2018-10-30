@@ -99,6 +99,13 @@ npm install --save-dev grunt-contrib-uglify && \
 curl -LO https://raw.githubusercontent.com/thisiscapra/auto-wordpress/master/Gruntfile.js
 
 # ========================================
+# GIT SETUP
+# ========================================
+
+git init && \
+curl -LO https://raw.githubusercontent.com/thisiscapra/auto-wordpress/master/.gitignore
+
+# ========================================
 # INSTALL SOME PLUGINS
 # ========================================
 
