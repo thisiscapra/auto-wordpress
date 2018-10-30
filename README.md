@@ -15,7 +15,7 @@ First You will need to install the following dependencies...
 
 ## Underscores
 
-* `npm install -g underscores`
+* `npm install -g https://github.com/thisiscapra/node-underscores`
 
 ## Node/NPM (If not installed)
 
