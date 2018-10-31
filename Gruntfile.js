@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       dev: {
         options: {
           implementation: sass,
-          compass: true
+          style: 'compressed'
         },
         files: [
           {
